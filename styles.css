@@ -1,3 +1,4 @@
+/*----------lesson-task-1----------*/
 /* .horizontal {
   height: 50px;
   display: flex;
@@ -11,3 +12,67 @@
   align-items: center;
   justify-content: space-around;
 } */
+/*----------lesson-task-2----------*/
+/* .page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: yellow;
+}
+.navigation {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation__item {
+  margin-left: 16px;
+}
+.content {
+  flex-grow: 1;
+  display: flex;
+}
+.dashboard {
+  display: flex;
+  flex-grow: 1;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+}
+.news {
+  background-color: gray;
+  width: 200px;
+}
+.news__title {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0px;
+}
+.news__list {
+  list-style-type: none;
+  line-height: 40px;
+  padding-left: 16px;
+}
+.footer {
+  height: 40px;
+  background-color: green;
+  display: flex;
+}
+.footer__text {
+  margin: auto;
+} */
+/*----------lesson-task-3----------*/
+.block {
+  height: 100px;
+  min-width: 100px;
+  flex-grow: 1;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
