@@ -77,7 +77,7 @@
   flex-wrap: wrap;
 } */
 /*----------hw-1----------*/
-body {
+/* body {
   display: flex;
 }
 .block {
@@ -98,4 +98,20 @@ body {
 }
 .block_black {
   background-color: black;
+} */
+/*----------hw-2----------*/
+header {
+  display: flex;
+  justify-content: center;
+}
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.article {
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+  flex-grow: 1;
+  flex-basis: 300px;
 }
